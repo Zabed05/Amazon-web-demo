@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 186px;
+    background: url(assets/loginbg.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.login{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0 ,.1);
+    color: white;
+    border-radius: 10px;
+    padding:30px 40px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+.login h1{
+    font-size: 36px;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 30px 0;
+}
+.input-box input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+.input box input::placeholder{
+    color: white;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.login .remember-pass{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+   
+}
+.remember-pass lable input{
+    accent-color: white;
+    margin-right: 3px;
+    
+}
+.remember-pass a{
+    color: white;
+    text-decoration: none;
+}
+.remember-pass a:hover{
+    text-decoration: underline;
+}
+.login .btn{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.login .sign-up{
+    font-size: 15px;
+    text-align: center;
+   margin: 20px 0 15px;
+}
+.sign-up p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.sign-up p a:hover{
+    text-decoration: underline;
+}
